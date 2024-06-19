@@ -7,4 +7,6 @@ It involves getting the memory address of a rootkit's "show_module" function, fo
 
 We can obtain the function address in very simple kernels using */sys/kernel/tracing/available_filter_functions_addrs*, however, it is only available from kernel 6.5x onwards.
 
-An alternative to this is to scan the kernel memory
+An alternative to this is to scan the kernel memory, and later add it to lsmod again, so it can be removed. 
+
+So in summary, this LKM abuses the function of lkm rootkits that have the functionality to become visible again.
