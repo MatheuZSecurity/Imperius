@@ -14,4 +14,5 @@ So in summary, this LKM abuses the function of lkm rootkits that have the functi
 OBS: There is another trick of removing/defusing a LKM rootkit, but it will be in the research that will be launched.
 
 Join in Rootkit Researchers Group
+
 https://discord.gg/66N5ZQppU7
