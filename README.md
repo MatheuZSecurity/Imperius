@@ -12,3 +12,6 @@ An alternative to this is to scan the kernel memory, and later add it to lsmod a
 So in summary, this LKM abuses the function of lkm rootkits that have the functionality to become visible again.
 
 OBS: There is another trick of removing/defusing a LKM rootkit, but it will be in the research that will be launched.
+
+Join in Rootkit Researchers Group
+https://discord.gg/66N5ZQppU7
